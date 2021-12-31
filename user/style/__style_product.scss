@@ -1,0 +1,35 @@
+@import "_VARIABLES";
+
+.v-product{
+  padding: 0 var(--padding-screen);
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1.5vw;
+  //background-color: #e7444d;
+  &__sidebar--left{
+    width: 100%;
+    height: 1000px;
+    background-color: #0c0101;
+  }
+  &--right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    &__banner{
+      width: 100%;
+      height: 25vw;
+      background-color: #7579ff;
+    }
+    &__filter{
+      width: 100%;
+      margin: 1.5vw 0;
+      height: 3vw;
+      background-color: #e7444d;
+    }
+    &__layout{
+
+    }
+  }
+}

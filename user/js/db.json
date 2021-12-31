@@ -1,0 +1,9 @@
+{
+  "name": "$internet.userName",
+  "orgPrice": "$commerce.price",
+  "pubPrice": "$commerce.price",
+  "quantity": 50,
+  "urlImage": "idontgiveafuck",
+  "comment": [],
+  "love": "$dataType.number"
+}
